@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bdd1c5b9; 
+}
+
+.navbar {
+    background-color: #000000; 
+}
+
+.nav-link {
+    color: #FFFFFF; 
+}
+
+.nav-link:hover {
+    color: #FFD700; 
+}
+
+.container {
+    margin-top: 20px;
+    color: #464646; 
+}
+/* Estilo dos cartões em preto e branco */
+.card {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    border: 1px solid #000; /* Bordas brancas */
+}
+
+.card-header {
+    background-color: #333; /* Fundo cinza escuro no cabeçalho */
+    color: #fff; /* Texto branco */
+}
+
+.card-header h4 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.card-body {
+    background-color: #000; /* Fundo preto no corpo do cartão */
+    color: #ccc; /* Texto cinza claro para contraste */
+}
+
+.card p {
+    margin: 0;
+    color: #fff; /* Cor do texto */
+}
+
+.card:hover {
+    background-color: #111; /* Fundo levemente mais claro no hover */
+    transition: background-color 0.3s ease;
+}
+/* Estilo do Rodapé */
+.footer {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    font-size: 0.9em;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer a {
+    color: #ccc; /* Cor do link em cinza claro */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #fff; /* Cor do link ao passar o mouse */
+}
